@@ -1,0 +1,32 @@
+.header__nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+.header__box{
+  display: flex;
+  align-items: center;
+}
+.header__list{
+  display: flex;
+  align-items: center;
+}
+.header__box--link{
+  color: black;
+  font-weight: bold;
+  margin-left: 30px;
+  opacity: 0.7;
+  &:hover{
+    opacity: 1;
+      border-bottom: 1px solid black; 
+  }
+}
+.header__input{
+  border:none;
+  margin-left: 40px;
+  &:hover{
+      border-bottom: 1px solid black;
+        box-sizing: border-box;
+  }
+}

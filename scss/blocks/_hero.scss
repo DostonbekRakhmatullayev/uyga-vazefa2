@@ -1,0 +1,60 @@
+.hero__dox{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}.hero__title{
+  margin-top: 200px;
+  font-weight: bold;
+  font-size: 60px;
+}
+.hero__img{
+  position: absolute;
+  width: 600px;
+  top: 90px;
+  right: -400px;
+}
+.hero__text {
+  width: 450px;
+  margin-left: 30px;
+  opacity: 0.8;
+  &::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 335px;
+    height: 110px;
+    width: 3px;
+    background-color: black;
+    opacity: 0.8;
+  } 
+}
+.hero__text--p {
+  width: 450px;
+  margin-left: 30px;
+  opacity: 0.8;
+  &::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 435px;
+    height: 110px;
+    width: 3px;
+    background-color: black;
+    opacity: 0.8;
+  } 
+}
+.hero__btn{
+  padding: 10px 25px;
+  border: none;
+  font-weight: bold;
+  background-color: rgb(219, 65, 65);
+  opacity: 0.8;
+  &:hover{
+    opacity: 1;
+  }
+}
+.hero_hr{
+  width: 100%;
+  margin-top: 163px;
+}
